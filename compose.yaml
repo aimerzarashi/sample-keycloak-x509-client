@@ -21,8 +21,6 @@ services:
       KC_HTTPS_KEY_STORE_PASSWORD: 2345
       KC_HTTPS_TRUST_STORE_FILE:  /opt/keycloak/conf/truststores/truststore.p12 
       KC_HTTPS_TRUST_STORE_PASSWORD:  3456
-      KC_SPI_TRUSTSTORE_FILE_FILE:  /opt/keycloak/conf/truststores/truststore.p12 
-      KC_SPI_TRUSTSTORE_FILE_PASSWORD:  3456 
     command:
       - "start-dev"
     volumes:
