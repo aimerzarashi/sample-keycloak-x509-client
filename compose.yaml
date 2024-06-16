@@ -1,7 +1,6 @@
 services:
   idp:
     ports:
-      - 80:8080
       - 443:8443
     image: keycloak/keycloak:25.0
     environment:
